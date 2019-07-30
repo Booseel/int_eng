@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="style.856cfc7cccc1ba9f238f.css?dd78265716e03e9afda1">
+ <script src="config.js"></script>
+</head>
+
+<body> 
+  <div id="particles-js"></div>
+  <div class="body_wrapper" 
+    style="
+      background-image: url(public/img/back.jpg);
+  ">
+    <div class="header">
+      <div class="header_line"></div>
+      <div class="trapezium">
+        <div class="trapezium_left"></div>
+        <div class="trapezium_right"></div>
+      </div>
+      <img src="public/svg/logo_short.svg" alt="CyberBet" class="header__logo">
+    </div>
+    <div class="content">
+      <div class="left">
+        <div class="tittle_container">
+          <img src="/src/public/img/int.png" alt="int" class="int">
+          <h2 class="title__deposit">
+            chill and earn the money
+            <span>while someone crushing the ancient</span>
+          </h2>
+        </div>
+        <div class="register_form">
+            <div class="form__header">
+              <span>REGISTRATION</span>
+            </div>
+            <div class="form__content">
+              <div class="form_content__body">
+                  <div class="fields">
+                    <div class="input__container">
+                      <input id="email" type="email" class="fields__input" placeholder="Email" autocomplete="on">
+                      <span id="email_message" class="error_message hide">Invalid email</span>
+                    </div>
+                      <div class="input__container">
+                        <input id="password" type="password" class="fields__input" placeholder="Password">
+                        <div>
+                          <img src="public/svg/eye-open.svg" class="input_eye" id="eye-open" alt="">
+                          <img src="public/svg/eye-close.svg" class="input_eye hide" id="eye-close" alt="">
+                        </div>
+                        <span class="error_message hide" id="password_message">
+                          Choose a password with 8+ letters
+                        </span>
+                        <!-- <span class="error_message hide" id="password_message_two">
+                          Use big Letter in your password
+                        </span> -->
+                      </div>
+                    </div>
+                    <div class="currency__container">
+                      <span class="currency__title">Currency</span>
+                      <div class="currency disable" id="euro" data-currency="EUR">
+                        <span class="currency__text">€</span>
+                      </div>
+                      <div class="currency disable currency__active" id="dollar" data-currency="USD">
+                        <span class="currency__text ">$</span>
+                      </div>
+                      <div class="currency disable" id="ruble" data-currency="GBP">
+                        <span class="currency__text" >&pound;</span>
+                      </div>
+                      <div class="currency disable" id="ruble" data-currency="RUB">
+                        <span class="currency__text">₽</span>
+                      </div>
+                    </div>
+                    <div class="terms">
+                        <label class="container" >
+                            <input type="checkbox" checked="true" id="terms">
+                            <span class="checkmark" id="checkmark"></span>
+                        </label>
+                        <span class="checkbox__text">
+                            I am 18 years old and I have read and accepted 
+                            <a class="term__modal" href="https://static.mycyber.bet/legal/privacy-policy-v1.0.pdf" id="Privacy">Privacy Policy</a>,
+                            <a class="term__modal" href="#" id="Conditions">Terms&Conditions</a> 
+                        </span>
+                    </div>
+              </div>
+              <div class="submit__button">
+                  <a href="#" id="submit__button" class="btn">SIGN UP</a>
+                  <a href="#" id="have_account">Already have an account?</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="right">
+          <!-- some image will be there -->
+          <img src="/src/public/img/dudes.png" alt="">
+      </div>
+    </div>
+    <footer class="footer">
+        <spa class="footer__text">© 2019 Ice Gaming N.V.</span>
+    </footer>
+  </div>
+  <canvas id="myCanvas" height="200" width="600"></canvas>
+  <div class="modal">
+    <div class="wrapper"></div>
+    <div class="modal__content">
+       <img src="public/svg/cancel.svg" alt="CyberBet" class="modal__close">
+    </div>
+  </div>
+  <script src="main.6e1a39dc90a9a3c6f882.js?dd78265716e03e9afda1"></script>
+  <script src="/src/canvas.js"></script>
+  <script src="/src/particles.js"></script>
+  <script src="/src/app.js"></script>
+</body>
+
+</html>
