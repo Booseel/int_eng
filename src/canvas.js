@@ -11,7 +11,7 @@ pCollection = new Array();
 
 var puffs = 1;
 var particlesPerPuff = 2000;
-var img = '/public/img/smoke2.png';
+var img = 'public/img/smoke2.png';
 
 var smokeImage = new Image();
 smokeImage.src = img;
